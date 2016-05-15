@@ -1,0 +1,62 @@
+{
+  "name": "EBokking",
+  "title": "EBokking",
+  "description": "EBooking in mobile",
+  "author": "Allmobilize, Inc.",
+  "version": "0.0.0",
+  "keywords": [
+    "css",
+    "js",
+    "less"
+  ],
+  "homepage": "http://amazeui.org",
+  "scripts": {
+    "build:html": "webpack -d -w",
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "webpack --progress --profile --colors"
+  },
+  "style": "dist/css/amazeui.css",
+  "less": "less/amazeui.less",
+  "main": "./dist/js/amazeui",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "lodash": "^4.10.0",
+    "ejs": "^2.3.3",
+    "babel-core": "6.3.26",
+    "babel-loader": "6.2.0",
+    "babel-plugin-transform-runtime": "6.3.13",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "babel-runtime": "5.8.34",
+    "imports-loader": "^0.6.5",
+    "ejs-compiled-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^1.0.1 ",
+    "html-webpack-plugin": "^2.15.0",
+    "expose-loader": "^0.7.1",
+    "vue-loader": "^8.2.2",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "less-loader": "2.2.2",
+    "url-loader": "^0.5.7",
+    "json-loader": "0.5.4",
+    "git-revision": "^0.0.2",
+    "yargs": "^4.3.2",
+    "clean-webpack-plugin": "^0.1.8",
+    "banner-footer-webpack-plugin": "https://github.com/dtothefp/banner-footer-webpack-plugin.git",
+    "hidefile": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs-simple": "^6.7.4",
+    "babel-preset-es2015-webpack": "^6.4.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "license": "MIT"
+}
