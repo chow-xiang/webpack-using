@@ -1,0 +1,10 @@
+<% var allChunks = htmlWebpackPlugin.options.chunks %>
+<% for (var i=0;i<allChunks.length;i++) { %>
+	<% var chunk = htmlWebpackPlugin.files.chunks[ allChunks[i] ] %>
+	<% if( chunk && chunk.entry ){ %>
+	<script src="<%= chunk.entry %>"></script>
+	<% } %>
+<% } %>
+
+</body>
+</html>
